@@ -126,8 +126,24 @@
 								underground requires an efficient method to prevent charged particles from cosmic rays
 								from reaching the ICAL detector. Hence, a veto detector engulfing the ICAL detector has been proposed. The application draws inspiration from the
 								<a href="https://indico.cern.ch/event/361123/contributions/856188/attachments/1135881/1625309/DPF2015_CRV_Overview.pdf" target=" ">veto detector for Mu2E detector at Fermilab.</a><br>
-								I'm currently developing the GEANT-4 simulations for the veto detector and trying to achieve the efficiency requirement. Further steps include charaterisation of the
-								extruded scintillators coupled with SiPMs, followed by physical verfication of the proposed design in terms of feasibility and efficiency.
+
+								<p align="center"> <img src="images/projects/mical.png" style="width:40%"> <br>
+									<i>The mini-ICAL detector</i>
+								</p>
+
+								I have been troubleshooting the CAEN DT5702 32-ch SiPM readout board which was supposed to be used for characterizing the detector setup. But, the module had to be sent back to CAEN for repairs and has a long turn-around.
+								I decided to build my own SiPM readout board instead. TIFR plans to use this for science demonstration purposes as well. Hence, simple components (in terms of footprint, availability and cost) have been used.
+								The schematics and PCB designs are now ready and we're waiting for the PCB to get manufactured in the foundry.
+								<p align="center"> <img src="images/projects/SiPM RdOut Top.jpg" style="width:40%"> <br>
+									<i>The PCB top view</i>
+								</p>
+
+								<p align="center"> <img src="images/projects/SiPM RdOut Orthogonal.jpg" style="width:40%"> <br>
+									<i>The PCB Orthogonal view</i>
+								</p>
+
+								Design files available <a href="https://github.com/birdman550/SiPM-Readout-Board" target=" ">HERE</a><br>
+
 								I will keep updating this space. Please reach out for comments/suggestions.<br><br>
 
 								<!--
@@ -146,9 +162,7 @@
 								</div>
 							-->
 
-								<p align="center"> <img src="images/projects/mical.png" style="width:40%"> <br>
-									<i>The mini-ICAL detector</i>
-								</p>
+
 								<br>
 								<h2 align="center">Track reconstruction using deep neural networks</h2>
 								Neutrinos and anti-neutrinos interact differently with atomic nuclei. Neutrino interaction produces leptons, whereas antineutrino interaction produces antileptons.
